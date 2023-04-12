@@ -1,0 +1,64 @@
+h1 {
+    color: green;
+}
+
+.body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
+    border: 5px solid red;
+    background-color: aquamarine;
+}
+
+.display {
+    display: flex;
+    height: 130px;
+    background-color: blueviolet;
+}
+
+.screen {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    width: 450px;
+    height: 80px;
+    margin: 25px;
+}
+
+.keypads {
+    display: flex;
+    flex-direction: row;
+}
+
+.ops {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+    background-color: darkkhaki;
+}
+
+.op {
+    width: 70px;
+    height: 50px;
+    background-color: chartreuse;
+}
+
+.nums {
+    display: flex;
+    flex-wrap: wrap;
+    width: 375px;
+}
+
+.num {
+    width: 100px;
+    height: 50px;
+    background-color: cornflowerblue;
+}
